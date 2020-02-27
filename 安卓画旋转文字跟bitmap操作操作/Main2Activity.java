@@ -16,7 +16,7 @@ import cn.wintec.ldj.LabelPrinting;
 import java.io.File;
 
 /**
- * 此activity只是为了获取系统权限才能进行读取文件
+ * 此activity只是为了获取系统权限才能进行读取文件(不用理会)
  */
 public class Main2Activity extends AppCompatActivity {
 
@@ -68,6 +68,7 @@ public class Main2Activity extends AppCompatActivity {
                 .Manifest.permission.WRITE_EXTERNAL_STORAGE}, 1);
 
     }
+   //这边是读取文件权限好像 不用理会
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions,
                                            @NonNull int[] grantResults) {
